@@ -613,7 +613,7 @@ edm:unitCode owl:equivalentProperty schema:unitCode .
 
 edm:value owl:equivalentProperty schema:value .
 
-edm:geometry owl:equivalentProperty locn:geometry .
+edm:location owl:equivalentProperty locn:geometry .
 
 edm:schemeAgency owl:equivalentProperty adms:schemeAgency .
 
@@ -629,13 +629,13 @@ edm:prefLabel owl:equivalentProperty skos:prefLabel .
 
 edm:inScheme owl:equivalentProperty skos:inScheme .
 
-edm:country-name owl:equivalentProperty vcard:country-name .
+edm:countryName owl:equivalentProperty vcard:country-name .
 
 edm:locality owl:equivalentProperty vcard:locality .
 
-edm:postal-code owl:equivalentProperty vcard:postal-code .
+edm:postalCode owl:equivalentProperty vcard:postal-code .
 
-edm:street-address owl:equivalentProperty vcard:street-address .
+edm:streetAddress owl:equivalentProperty vcard:street-address .
 
 edm:title owl:equivalentProperty hydra:title .
 
