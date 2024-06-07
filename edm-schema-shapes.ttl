@@ -67,7 +67,7 @@ edm:PeriodOfTime a owl:Class ;
 edm:type a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty sdcat:startDate
+    owl:equivalentProperty dcat:startDate
 .
 edm:identifier a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
@@ -1052,7 +1052,7 @@ edm:WebService a owl:Class ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Identifier ;
-    owl:equivalentProperty sdcat:theme
+    owl:equivalentProperty dcat:theme
 .
 edm:schemaIdentifier a rdf:Property ;
     rdfs:domain edm:WebService ;
