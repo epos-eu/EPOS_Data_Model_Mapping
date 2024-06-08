@@ -43,7 +43,7 @@
 ####
 edm:Identifier a owl:Class ;
   owl:equivalentClass adms:Identifier ;
-  owl:equivalentClass adms:Identifier ;
+  owl:equivalentClass schema:PropertyValue ;
 .
 edm:type a rdf:Property ;
     rdfs:domain edm:Identifier ;
