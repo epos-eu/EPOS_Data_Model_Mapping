@@ -64,15 +64,17 @@ edm:identifier a rdf:Property ;
 edm:PeriodOfTime a owl:Class ;
   owl:equivalentClass dct:PeriodOfTime ;
 .
-edm:type a rdf:Property ;
+edm:startDate a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty dcat:startDate
+    owl:equivalentProperty dcat:startDate ;
+    owl:equivalentProperty schema:startDate
 .
-edm:identifier a rdf:Property ;
+edm:endDate a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty dcat:endDate
+    owl:equivalentProperty dcat:endDate ;
+    owl:equivalentProperty schema:endDate
 .
 
 
