@@ -90,6 +90,23 @@ edm:location a rdf:Property ;
     owl:equivalentProperty locn:geometry
 .
 
+####
+# QUANTITATIVEVALUE 
+####
+edm:QuantitativeValue a owl:Class ;
+  owl:equivalentClass schema:QuantitativeValue ;
+.
+edm:unit a rdf:Property ;
+    rdfs:domain edm:QuantitativeValue ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:unitCode
+.
+edm:value a rdf:Property ;
+    rdfs:domain edm:QuantitativeValue ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:value
+.
+
 
 ####
 # ADDRESS 
