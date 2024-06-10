@@ -155,19 +155,19 @@ edm:Documentation a owl:Class ;
 .
 
 edm:title a rdf:Property ;
-    rdfs:domain edm:ApiDocumentation ;
+    rdfs:domain edm:Documentation ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:title
 .
 
 edm:description a rdf:Property ;
-    rdfs:domain edm:ApiDocumentation ;
+    rdfs:domain edm:Documentation ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:description
 .
 
 edm:uri a rdf:Property ;
-    rdfs:domain edm:ApiDocumentation ;
+    rdfs:domain edm:Documentation ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:entrypoint
 .
