@@ -730,7 +730,7 @@ edm:range a rdf:Property ;
 edm:required a rdf:Property ;
     rdfs:domain edm:Mapping ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty hydra:required 
+    owl:equivalentProperty hydra:required
 .
 
 edm:valuePattern a rdf:Property ;
@@ -1071,13 +1071,8 @@ edm:WebService a owl:Class ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Identifier ;
-    owl:equivalentProperty dcat:theme
-.
-edm:schemaIdentifier a rdf:Property ;
-    rdfs:domain edm:WebService ;
-    rdfs:range  xsd:string ;
+    owl:equivalentProperty dct:identifier ;
     owl:equivalentProperty schema:identifier ;
-    owl:equivalentProperty dct:identifier
 .
 
 edm:category a rdf:Property ;
