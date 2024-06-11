@@ -657,7 +657,6 @@ edm:title a rdf:Property ;
 # OPERATION IRITEMPLATE 
 ####
 edm:Operation a owl:Class ;
-    owl:equivalentClass hydra:IriTemplate ;
     owl:equivalentClass hydra:Operation ;
 .
 
@@ -674,7 +673,7 @@ edm:returns a rdf:Property ;
 .
 
 edm:template a rdf:Property ;
-    rdfs:domain edm:Operation ;
+    rdfs:domain hydra:IriTemplate ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:template
 .
