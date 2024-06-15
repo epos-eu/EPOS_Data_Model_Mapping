@@ -24,7 +24,7 @@
 @prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .  
 @prefix dqv: <http://www.w3.org/ns/dqv#> .
-@prefix foaf: <http://xmlns.com/foaf/spec/#term_> .
+@prefix foafterm: <http://xmlns.com/foaf/spec/#term_> .
 
 
 <http://www.epos-eu.org/epos-data-model>
@@ -239,13 +239,13 @@ edm:code a rdf:Property ;
 edm:logo a rdf:Property ;
     rdfs:domain edm:CategoryScheme ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty foaf:logo
+    owl:equivalentProperty foafterm:logo
 .
 
 edm:homepage a rdf:Property ;
     rdfs:domain edm:CategoryScheme ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty foaf:homepage
+    owl:equivalentProperty foafterm:homepage
 .
 
 edm:color a rdf:Property ;
