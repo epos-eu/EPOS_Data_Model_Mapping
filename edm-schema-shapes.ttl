@@ -24,6 +24,7 @@
 @prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix gsp: <http://www.opengis.net/ont/geosparql#> .  
 @prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix foaf: <http://xmlns.com/foaf/spec/#term_> .
 
 
 <http://www.epos-eu.org/epos-data-model>
