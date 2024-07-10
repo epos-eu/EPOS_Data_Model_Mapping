@@ -680,7 +680,7 @@ edm:template a rdf:Property ;
 
 edm:mapping a rdf:Property ;
     rdfs:domain edm:Operation ;
-    rdfs:range  edm:Mapping ;
+    rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:mapping ;
 .
 
