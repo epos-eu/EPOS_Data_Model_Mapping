@@ -678,7 +678,11 @@ edm:template a rdf:Property ;
     owl:equivalentProperty hydra:template ;
 .
 
-
+edm:mapping a rdf:Property ;
+    rdfs:domain edm:Operation ;
+    rdfs:range  edm:Mapping ;
+    owl:equivalentProperty hydra:mapping ;
+.
 
 ####
 # MAPPING 
