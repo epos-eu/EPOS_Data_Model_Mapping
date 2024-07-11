@@ -330,11 +330,11 @@ edm:created a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dct:created ;
 .
-edm:dctIdentifier a rdf:Property ;
-    rdfs:domain edm:DataProduct ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty dct:identifier ;
-.
+#edm:dctIdentifier a rdf:Property ;
+#    rdfs:domain edm:DataProduct ;
+#    rdfs:range  xsd:string ;
+#    owl:equivalentProperty dct:identifier ;
+#.
 edm:description a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  xsd:string ;
@@ -353,6 +353,7 @@ edm:identifier a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Identifier ;
     owl:equivalentProperty adms:identifier ;
+    owl:equivalentProperty dct:identifier ;
 .
 edm:isPartOf a rdf:Property ;
     rdfs:domain edm:DataProduct ;
