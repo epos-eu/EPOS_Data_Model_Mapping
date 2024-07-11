@@ -50,13 +50,13 @@ edm:Identifier a owl:Class ;
 edm:type a rdf:Property ;
     rdfs:domain edm:Identifier ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty skos:notation ;
+    owl:equivalentProperty adms:schemeAgency;
     owl:equivalentProperty schema:propertyID ;
 .
 edm:identifier a rdf:Property ;
     rdfs:domain edm:Identifier ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty adms:schemeAgency;
+    owl:equivalentProperty skos:notation ;
     owl:equivalentProperty schema:value ;
 .
 
