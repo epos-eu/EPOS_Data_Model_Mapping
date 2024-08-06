@@ -439,9 +439,9 @@ edm:Distribution a owl:Class ;
   owl:equivalentClass dcat:Distribution ;
 .
 
-edm:accessURL a rdf:Property ;
+edm:supportedOperation a rdf:Property ;
     rdfs:domain edm:Distribution ;
-    rdfs:range  xsd:string ;
+    rdfs:range  edm:Operation ;
     owl:equivalentProperty dcat:accessURL ;
 .
 edm:description a rdf:Property ;
@@ -488,6 +488,11 @@ edm:dataPolicy a rdf:Property ;
     rdfs:domain edm:Distribution ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dct:rights ;
+.
+edm:accessService a rdf:Property ;
+    rdfs:domain edm:Distribution ;
+    rdfs:range  edm:WebService ;
+    owl:equivalentProperty dct:conformsTo ;
 .
 
 ####
