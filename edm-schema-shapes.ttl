@@ -803,7 +803,7 @@ edm:identifier a rdf:Property ;
 .
 edm:legalName a rdf:Property ;
     rdfs:domain edm:Organization ;
-    rdfs:range  edm:LegalName ;
+    rdfs:range  xsd:string ;
     owl:equivalentProperty schema:legalName ;
 .
 edm:leiCode a rdf:Property ;
@@ -836,7 +836,6 @@ edm:URL a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:url ;
 .
-
 
 ####
 # PERSON 
