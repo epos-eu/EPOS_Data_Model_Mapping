@@ -685,18 +685,11 @@ edm:template a rdf:Property ;
     owl:equivalentProperty hydra:template ;
 .
 
-#edm:mapping a rdf:Property ;
-#    rdfs:domain edm:Operation ;
-#    rdfs:range  xsd:string ;
-#    owl:equivalentProperty hydra:mapping ;
-#.
-
-edm:ismappingof a rdf:Property ;
+edm:mapping a rdf:Property ;
     rdfs:domain edm:Operation ;
     rdfs:range  edm:Mapping ;
     owl:equivalentProperty hydra:mapping ;
 .
-
 
 ####
 # MAPPING 
