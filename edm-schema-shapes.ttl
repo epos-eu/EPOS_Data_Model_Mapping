@@ -890,6 +890,11 @@ edm:affiliation a rdf:Property ;
     rdfs:range  edm:Organization ;
     owl:equivalentProperty schema:affiliation ;
 .
+edm:contactPoint a rdf:Property ;
+    rdfs:domain edm:Person ;
+    rdfs:range  edm:ContactPoint ;
+    owl:equivalentProperty schema:contactPoint ;
+.
 
 ####
 # SOFTWAREAPPLICATION 
