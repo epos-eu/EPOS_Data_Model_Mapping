@@ -960,7 +960,7 @@ edm:parameter a rdf:Property ;
 .
 edm:relation a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
-    rdfs:range  xsd:string ;
+    rdfs:range  edm:Operation ;
     owl:equivalentProperty dct:relation ;
 .
 edm:requirements a rdf:Property ;
