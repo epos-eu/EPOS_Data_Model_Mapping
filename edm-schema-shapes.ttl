@@ -982,13 +982,13 @@ edm:SoftwareApplicationParameter a owl:Class ;
     owl:equivalentClass schema:CreativeWork ;
 .
 
-edm:encodingFormat a rdf:Property ;
+edm:encodingformat a rdf:Property ;
     rdfs:domain edm:SoftwareApplicationParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:encodingFormat ;
 .
 
-edm:conformsTo a rdf:Property ;
+edm:conformsto a rdf:Property ;
     rdfs:domain edm:SoftwareApplicationParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:schemaVersion ;
