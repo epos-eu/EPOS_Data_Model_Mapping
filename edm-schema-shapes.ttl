@@ -983,20 +983,20 @@ edm:Parameter a owl:Class ;
     owl:equivalentClass schema:CreativeWork ;
 .
 edm:action a rdf:Property ;
-    rdfs:domain schema:CreativeWork ;
+    rdfs:domain edm:Parameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:object ;
     owl:equivalentProperty schema:result ;
 .
 
 edm:encodingFormat a rdf:Property ;
-    rdfs:domain schema:CreativeWork ;
+    rdfs:domain edm:Parameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:encodingFormat ;
 .
 
 edm:conformsTo a rdf:Property ;
-    rdfs:domain schema:CreativeWork ;
+    rdfs:domain edm:Parameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:schemaVersion ;
 .
