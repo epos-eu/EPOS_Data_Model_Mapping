@@ -979,14 +979,7 @@ edm:softwareVersion a rdf:Property ;
 ####
 
 edm:SoftwareApplicationParameter a owl:Class ;
-    owl:equivalentClass schema:ControlAction ;
     owl:equivalentClass schema:CreativeWork ;
-.
-edm:action a rdf:Property ;
-    rdfs:domain edm:SoftwareApplicationParameter ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:object ;
-    owl:equivalentProperty schema:result ;
 .
 
 edm:encodingFormat a rdf:Property ;
