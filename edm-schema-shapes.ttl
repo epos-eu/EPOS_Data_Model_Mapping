@@ -955,7 +955,7 @@ edm:name a rdf:Property ;
 .
 edm:parameter a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
-    rdfs:range  edm:Parameter ;
+    rdfs:range  edm:SoftwareApplicationParameter ;
     owl:equivalentProperty schema:ControlAction ;
 .
 edm:relation a rdf:Property ;
@@ -978,25 +978,25 @@ edm:softwareVersion a rdf:Property ;
 # PARAMETER
 ####
 
-edm:Parameter a owl:Class ;
+edm:SoftwareApplicationParameter a owl:Class ;
     owl:equivalentClass schema:ControlAction ;
     owl:equivalentClass schema:CreativeWork ;
 .
 edm:action a rdf:Property ;
-    rdfs:domain edm:Parameter ;
+    rdfs:domain edm:SoftwareApplicationParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:object ;
     owl:equivalentProperty schema:result ;
 .
 
 edm:encodingFormat a rdf:Property ;
-    rdfs:domain edm:Parameter ;
+    rdfs:domain edm:SoftwareApplicationParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:encodingFormat ;
 .
 
 edm:conformsTo a rdf:Property ;
-    rdfs:domain edm:Parameter ;
+    rdfs:domain edm:SoftwareApplicationParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:schemaVersion ;
 .
