@@ -761,7 +761,7 @@ edm:variable a rdf:Property ;
 edm:multipleValues a rdf:Property ;
     rdfs:domain edm:Mapping ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:multiValues ;
+    owl:equivalentProperty schema:multipleValues ;
 .
 
 edm:readOnlyValue a rdf:Property ;
