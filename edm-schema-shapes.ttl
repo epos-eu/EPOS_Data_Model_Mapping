@@ -953,14 +953,14 @@ edm:name a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:name ;
 .
-edm:parameter a rdf:Property ;
+edm:inputParameter a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
     rdfs:range  edm:SoftwareApplicationInputParameter ;
     owl:equivalentProperty schema:object ;
 .
-edm:parameter a rdf:Property ;
+edm:outputParameter a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
-    rdfs:range  edm:SoftwareApplicationInputParameter ;
+    rdfs:range  edm:SoftwareApplicationOutputParameter ;
     owl:equivalentProperty schema:result ;
 .
 edm:relation a rdf:Property ;
