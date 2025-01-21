@@ -984,6 +984,7 @@ edm:softwareVersion a rdf:Property ;
 ####
 
 edm:SoftwareApplicationInputParameter a owl:Class ;
+    owl:equivalentClass schema:CreativeWork ;
 .
 
 edm:encodingformat a rdf:Property ;
@@ -999,6 +1000,7 @@ edm:conformsto a rdf:Property ;
 .
 
 edm:SoftwareApplicationOutputParameter a owl:Class ;
+    owl:equivalentClass schema:Product ;
 .
 
 edm:encodingformat a rdf:Property ;
