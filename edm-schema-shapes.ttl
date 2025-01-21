@@ -385,11 +385,6 @@ edm:publisher a rdf:Property ;
     rdfs:range  edm:Organization ;
     owl:equivalentProperty dct:publisher ;
 .
-edm:relation a rdf:Property ;
-    rdfs:domain edm:DataProduct ;
-    rdfs:range  edm:Relation ;
-    owl:equivalentProperty dct:relation ;
-.
 edm:spatialExtent a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Location;
@@ -560,11 +555,6 @@ edm:orientation a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty epos:orientation ;
 .
-edm:relation a rdf:Property ;
-    rdfs:domain edm:Equipment ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty dct:relation ;
-.
 edm:resolution a rdf:Property ;
     rdfs:domain edm:Equipment ;
     rdfs:range  xsd:string ;
@@ -642,11 +632,6 @@ edm:pageURL a rdf:Property ;
     rdfs:domain edm:Facility ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dcat:landingPage ;
-.
-edm:relation a rdf:Property ;
-    rdfs:domain edm:Facility ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty dct:relation ;
 .
 edm:spatialExtent a rdf:Property ;
     rdfs:domain edm:Facility ;
