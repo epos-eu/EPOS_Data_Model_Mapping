@@ -955,8 +955,13 @@ edm:name a rdf:Property ;
 .
 edm:parameter a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
-    rdfs:range  edm:SoftwareApplicationParameter ;
-    owl:equivalentProperty schema:potentialAction ;
+    rdfs:range  edm:SoftwareApplicationInputParameter ;
+    owl:equivalentProperty schema:object ;
+.
+edm:parameter a rdf:Property ;
+    rdfs:domain edm:SoftwareApplication ;
+    rdfs:range  edm:SoftwareApplicationInputParameter ;
+    owl:equivalentProperty schema:result ;
 .
 edm:relation a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
