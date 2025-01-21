@@ -1059,11 +1059,6 @@ edm:programmingLanguage a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:programmingLanguage ;
 .
-edm:relation a rdf:Property ;
-    rdfs:domain edm:SoftwareSourceCode ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:schemaVersion ;
-.
 edm:runtimePlatform a rdf:Property ;
     rdfs:domain edm:SoftwareSourceCode ;
     rdfs:range  xsd:string ;
