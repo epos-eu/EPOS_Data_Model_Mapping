@@ -1176,4 +1176,3 @@ edm:temporalExtent a rdf:Property ;
     rdfs:range  edm:PeriodOfTime ;
     owl:equivalentProperty dct:temporal ;
 .
-
