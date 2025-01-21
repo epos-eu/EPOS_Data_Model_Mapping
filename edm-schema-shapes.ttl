@@ -978,18 +978,34 @@ edm:softwareVersion a rdf:Property ;
 # PARAMETER
 ####
 
-edm:SoftwareApplicationParameter a owl:Class ;
-    owl:equivalentClass schema:CreativeWork ;
+edm:SoftwareApplicationInputParameter a owl:Class ;
+    owl:equivalentClass schema:object ;
 .
 
 edm:encodingformat a rdf:Property ;
-    rdfs:domain edm:SoftwareApplicationParameter ;
+    rdfs:domain edm:SoftwareApplicationInputParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:encodingFormat ;
 .
 
 edm:conformsto a rdf:Property ;
-    rdfs:domain edm:SoftwareApplicationParameter ;
+    rdfs:domain edm:SoftwareApplicationInputParameter ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:schemaVersion ;
+.
+
+edm:SoftwareApplicationOutputParameter a owl:Class ;
+    owl:equivalentClass schema:object ;
+.
+
+edm:encodingformat a rdf:Property ;
+    rdfs:domain edm:SoftwareApplicationOutputParameter ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:encodingFormat ;
+.
+
+edm:conformsto a rdf:Property ;
+    rdfs:domain edm:SoftwareApplicationOutputParameter ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:schemaVersion ;
 .
