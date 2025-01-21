@@ -948,10 +948,10 @@ edm:outputParameter a rdf:Property ;
     rdfs:range  edm:SoftwareApplicationOutputParameter ;
     owl:equivalentProperty schema:result ;
 .
-edm:relation a rdf:Property ;
+edm:operation a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
     rdfs:range  edm:Operation ;
-    owl:equivalentProperty dct:subject ;
+    owl:equivalentProperty dct:relation ;
 .
 edm:requirements a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
