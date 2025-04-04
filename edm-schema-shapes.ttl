@@ -702,31 +702,31 @@ edm:OutputMapping a owl:Class ;
 .
 
 
-edm:label a rdf:Property ;
+edm:outputLabel a rdf:Property ;
     rdfs:domain edm:OutputMapping ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:description ;
 .
 
-edm:property a rdf:Property ;
+edm:outputProperty a rdf:Property ;
     rdfs:domain edm:OutputMapping ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:property ;
 .
 
-edm:required a rdf:Property ;
+edm:outputRequired a rdf:Property ;
     rdfs:domain edm:OutputMapping ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:required ;
 .
 
-edm:valuePattern a rdf:Property ;
+edm:outputValuePattern a rdf:Property ;
     rdfs:domain edm:OutputMapping ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:valuePattern ;
 .
 
-edm:variable a rdf:Property ;
+edm:outputVariable a rdf:Property ;
     rdfs:domain edm:OutputMapping ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:variable ;
