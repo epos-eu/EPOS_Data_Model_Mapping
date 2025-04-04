@@ -676,6 +676,65 @@ edm:mapping a rdf:Property ;
     owl:equivalentProperty hydra:mapping ;
 .
 
+edm:payload a rdf:Property ;
+    rdfs:domain edm:Operation ;
+    rdfs:range  edm:Payload ;
+    owl:equivalentProperty hydra:expects ;
+.
+
+####
+# PAYLOAD
+####
+edm:Payload a owl:Class ;
+    owl:equivalentClass hydra:Class ;
+.
+edm:outputMapping a rdf:Property ;
+    rdfs:domain edm:Operation ;
+    rdfs:range  edm:OutputMapping ;
+    owl:equivalentProperty hydra:supportedProperty ;
+.
+
+####
+# OUTPUT MAPPING 
+####
+edm:OutputMapping a owl:Class ;
+    owl:equivalentClass hydra:SupportedProperty ;
+.
+
+
+edm:label a rdf:Property ;
+    rdfs:domain edm:OutputMapping ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty hydra:description ;
+.
+
+edm:property a rdf:Property ;
+    rdfs:domain edm:OutputMapping ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty hydra:property ;
+.
+
+edm:required a rdf:Property ;
+    rdfs:domain edm:OutputMapping ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty hydra:required ;
+.
+
+edm:valuePattern a rdf:Property ;
+    rdfs:domain edm:OutputMapping ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:valuePattern ;
+.
+
+edm:variable a rdf:Property ;
+    rdfs:domain edm:OutputMapping ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty hydra:variable ;
+.
+
+
+
+
 ####
 # MAPPING 
 ####
