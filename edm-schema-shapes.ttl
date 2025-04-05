@@ -689,7 +689,7 @@ edm:Payload a owl:Class ;
     owl:equivalentClass hydra:Class ;
 .
 edm:outputMapping a rdf:Property ;
-    rdfs:domain edm:Operation ;
+    rdfs:domain edm:Payload ;
     rdfs:range  edm:OutputMapping ;
     owl:equivalentProperty hydra:supportedProperty ;
 .
