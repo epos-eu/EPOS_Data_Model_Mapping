@@ -1235,3 +1235,10 @@ edm:temporalExtent a rdf:Property ;
     rdfs:range  edm:PeriodOfTime ;
     owl:equivalentProperty dct:temporal ;
 .
+
+edm:webserviceRelation a rdf:Property ;
+    rdfs:domain edm:WebService ;
+    rdfs:range  edm:WebService ;
+    owl:equivalentProperty dct:relation ;
+.
+
