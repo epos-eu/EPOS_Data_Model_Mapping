@@ -419,12 +419,12 @@ edm:documentation a rdf:Property ;
 edm:qualityAssurance a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty dqv:hasQualityAnnotation ;
+    owl:equivalentProperty oa:hasBody ; #dqv:hasQualityAnnotation ;
 .
 edm:hasQualityAnnotation a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty dqv:hasQualityAnnotation ;
+    owl:equivalentProperty oa:hasBody ; #dqv:hasQualityAnnotation ;
 .
 
 ####
