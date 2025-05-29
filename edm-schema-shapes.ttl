@@ -260,7 +260,7 @@ edm:orderitemnumber a rdf:Property ;
     owl:equivalentProperty schema:orderItemNumber ;
 .
 
-edm:topconcepts a rdf:Property ;
+edm:topConcepts a rdf:Property ;
     rdfs:domain edm:CategoryScheme ;
     rdfs:range  edm:Category ;
     owl:equivalentProperty skos:hasTopConcept ;
