@@ -643,11 +643,15 @@ edm:title a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dct:title ;
 .
-
 edm:type a rdf:Property ;
     rdfs:domain edm:Facility ;
-    rdfs:range  edm:Category ;
+    rdfs:range  xsd:string ;
     owl:equivalentProperty dct:type ;
+.
+edm:keywords a rdf:Property ;
+    rdfs:domain edm:Facility ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty dcat:keyword ;
 .
 
 
