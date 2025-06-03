@@ -644,6 +644,12 @@ edm:title a rdf:Property ;
     owl:equivalentProperty dct:title ;
 .
 
+edm:type a rdf:Property ;
+    rdfs:domain edm:Facility ;
+    rdfs:range  edm:Category ;
+    owl:equivalentProperty dct:type ;
+.
+
 
 ####
 # OPERATION IRITEMPLATE 
