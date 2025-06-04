@@ -487,7 +487,7 @@ edm:accessService a rdf:Property ;
 
 edm:supportedOperation a rdf:Property ;
     rdfs:domain edm:Distribution ;
-    rdfs:range  edm:Operation ;
+    rdfs:range  edm:OperationBean ;
     owl:equivalentProperty dcat:accessURL ;
 .
 
@@ -674,22 +674,36 @@ edm:returns a rdf:Property ;
     owl:equivalentProperty hydra:returns ;
 .
 
-edm:template a rdf:Property ;
+edm:iriTemplate a rdf:Property ;
     rdfs:domain edm:Operation ;
-    rdfs:range  xsd:string ;
-    owl:equivalentProperty hydra:template ;
-.
-
-edm:mapping a rdf:Property ;
-    rdfs:domain edm:Operation ;
-    rdfs:range  edm:Mapping ;
-    owl:equivalentProperty hydra:mapping ;
+    rdfs:range  edm:IriTemplate ;
+    owl:equivalentProperty hydra:property ;
 .
 
 edm:payload a rdf:Property ;
     rdfs:domain edm:Operation ;
     rdfs:range  edm:Payload ;
     owl:equivalentProperty hydra:expects ;
+.
+
+
+####
+# IRITEMPLATEMAPPING
+####
+edm:IriTemplate a owl:Class ;
+    owl:equivalentClass hydra:IriTemplate ;
+.
+
+edm:template a rdf:Property ;
+    rdfs:domain edm:IriTemplate ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty hydra:template ;
+.
+
+edm:mapping a rdf:Property ;
+    rdfs:domain edm:IriTemplate ;
+    rdfs:range  edm:Mapping ;
+    owl:equivalentProperty hydra:mapping ;
 .
 
 ####
