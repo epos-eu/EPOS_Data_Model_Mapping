@@ -669,14 +669,14 @@ edm:method a rdf:Property ;
 .
 
 edm:returns a rdf:Property ;
-    rdfs:domain edm:OperationBean ;
+    rdfs:domain edm:Operation ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:returns ;
 .
 
 edm:iriTemplate a rdf:Property ;
     rdfs:domain edm:Operation ;
-    rdfs:range  edm:IriTemplateBean ;
+    rdfs:range  edm:IriTemplate ;
     owl:equivalentProperty hydra:property ;
 .
 
