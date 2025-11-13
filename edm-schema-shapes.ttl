@@ -271,8 +271,8 @@ edm:topConcepts a rdf:Property ;
 # CONTACTPOINT 
 ####
 edm:ContactPoint a owl:Class;
-    owl:equivalentClass vcard:Kind ;
-    # owl:equivalentClass schema:ContactPoint ;
+    # owl:equivalentClass vcard:Kind ;
+    owl:equivalentClass schema:ContactPoint ;
 .
 
 edm:role a rdf:Property ;
@@ -728,7 +728,7 @@ edm:outputMapping a rdf:Property ;
 # OUTPUT MAPPING 
 ####
 edm:OutputMapping a owl:Class ;
-    owl:equivalentClass hydra:SupportedProperty ;
+    owl:equivalentClass hydra:IriTemplateMapping ;
 .
 
 
