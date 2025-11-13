@@ -46,19 +46,19 @@
 ####
 edm:Identifier a owl:Class ;
   owl:equivalentClass adms:Identifier ;
-  owl:equivalentClass schema:PropertyValue ;
+  # owl:equivalentClass schema:PropertyValue ;
 .
 edm:type a rdf:Property ;
     rdfs:domain edm:Identifier ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty adms:schemeAgency;
-    owl:equivalentProperty schema:propertyID ;
+    # owl:equivalentProperty schema:propertyID ;
 .
 edm:identifier a rdf:Property ;
     rdfs:domain edm:Identifier ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty skos:notation ;
-    owl:equivalentProperty schema:value ;
+    # owl:equivalentProperty schema:value ;
 .
 
 ####
@@ -71,13 +71,13 @@ edm:startDate a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dcat:startDate ;
-    owl:equivalentProperty schema:startDate ;
+    # owl:equivalentProperty schema:startDate ;
 .
 edm:endDate a rdf:Property ;
     rdfs:domain edm:PeriodOfTime ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dcat:endDate ;
-    owl:equivalentProperty schema:endDate ;
+    # owl:equivalentProperty schema:endDate ;
 .
 
 
@@ -116,35 +116,35 @@ edm:value a rdf:Property ;
 ####
 edm:Address a owl:Class ;
     owl:equivalentClass vcard:Address ; 
-    owl:equivalentClass schema:PostalAddress ;
+    # owl:equivalentClass schema:PostalAddress ;
 .
 
 edm:country a rdf:Property ;
     rdfs:domain edm:Address ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty vcard:country-name ;
-    owl:equivalentProperty schema:addressCountry ;
+    # owl:equivalentProperty schema:addressCountry ;
 .
 
 edm:locality a rdf:Property ;
     rdfs:domain edm:Address ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty vcard:locality ;
-    owl:equivalentProperty schema:addressLocality ;
+    # owl:equivalentProperty schema:addressLocality ;
 .
 
 edm:postalCode a rdf:Property ;
     rdfs:domain edm:Address ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty vcard:postal-code ;
-    owl:equivalentProperty schema:postalCode ;
+    # owl:equivalentProperty schema:postalCode ;
 .
 
 edm:street a rdf:Property ;
     rdfs:domain edm:Address ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty vcard:street-address ;
-    owl:equivalentProperty schema:streetAddress  ;
+    # owl:equivalentProperty schema:streetAddress  ;
 .
 
 
@@ -272,7 +272,7 @@ edm:topConcepts a rdf:Property ;
 ####
 edm:ContactPoint a owl:Class;
     owl:equivalentClass vcard:Kind ;
-    owl:equivalentClass schema:ContactPoint ;
+    # owl:equivalentClass schema:ContactPoint ;
 .
 
 edm:role a rdf:Property ;
@@ -354,7 +354,7 @@ edm:identifier a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Identifier ;
     owl:equivalentProperty adms:identifier ;
-    owl:equivalentProperty dct:identifier ;
+    # owl:equivalentProperty dct:identifier ;
 .
 edm:isPartOf a rdf:Property ;
     rdfs:domain edm:DataProduct ;
@@ -513,7 +513,7 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:Equipment ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 edm:description a rdf:Property ;
     rdfs:domain edm:Equipment ;
@@ -617,7 +617,7 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:Facility ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 edm:description a rdf:Property ;
     rdfs:domain edm:Facility ;
@@ -850,7 +850,7 @@ edm:readOnlyValue a rdf:Property ;
 ####
 edm:Organization a owl:Class;
   owl:equivalentClass foaf:Organization ;
-  owl:equivalentClass schema:Organization ;
+  # owl:equivalentClass schema:Organization ;
 .
 
 edm:address a rdf:Property ;
@@ -863,7 +863,7 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:Organization ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 edm:email a rdf:Property ;
     rdfs:domain edm:Organization ;
@@ -916,7 +916,7 @@ edm:URL a rdf:Property ;
 ####
 edm:Person a owl:Class;
   owl:equivalentClass foaf:Person ;
-  owl:equivalentClass schema:Person ;
+  # owl:equivalentClass schema:Person ;
 .
 
 edm:identifier a rdf:Property ;
@@ -985,7 +985,7 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 edm:description a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
@@ -1110,7 +1110,7 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:SoftwareSourceCode ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 edm:description a rdf:Property ;
     rdfs:domain edm:SoftwareSourceCode ;
@@ -1165,14 +1165,14 @@ edm:softwareVersion a rdf:Property ;
 ####
 edm:WebService a owl:Class ;
   owl:equivalentClass epos:WebService ;
-  owl:equivalentClass dcat:DataService ;
+  # owl:equivalentClass dcat:DataService ;
 .
 
 edm:identifier a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Identifier ;
     owl:equivalentProperty dct:identifier ;
-    owl:equivalentProperty schema:identifier ;
+    # owl:equivalentProperty schema:identifier ;
 .
 
 edm:category a rdf:Property ;
@@ -1185,14 +1185,14 @@ edm:contactPoint a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:ContactPoint ;
     owl:equivalentProperty dcat:contactPoint ;
-    owl:equivalentProperty schema:contactPoint ;
+    # owl:equivalentProperty schema:contactPoint ;
 .
 
 edm:dateModified a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:dateModified ;
-    owl:equivalentProperty dct:modified ;
+    # owl:equivalentProperty dct:modified ;
 .
 
 edm:datePublished a rdf:Property ;
@@ -1205,7 +1205,7 @@ edm:description a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:description ;
-    owl:equivalentProperty dct:description ;
+    # owl:equivalentProperty dct:description ;
 .
 
 edm:documentation a rdf:Property ;
@@ -1218,7 +1218,7 @@ edm:entryPoint a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty hydra:entrypoint ;
-    owl:equivalentProperty dcat:endpointURL ;
+    # owl:equivalentProperty dcat:endpointURL ;
 .
 
 edm:keywords a rdf:Property ;
@@ -1237,14 +1237,14 @@ edm:name a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:name ;
-    owl:equivalentProperty dct:title ;
+    # owl:equivalentProperty dct:title ;
 .
 
 edm:provider a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Organization ;
     owl:equivalentProperty schema:provider ;
-    owl:equivalentProperty dct:publisher ;
+    # owl:equivalentProperty dct:publisher ;
 .
 
 edm:spatialExtent a rdf:Property ;
@@ -1257,7 +1257,7 @@ edm:supportedOperation a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Operation ;
     owl:equivalentProperty hydra:supportedOperation ;
-    owl:equivalentProperty dcat:endpointDescription ;
+    # owl:equivalentProperty dcat:endpointDescription ;
 .
 
 edm:temporalExtent a rdf:Property ;
