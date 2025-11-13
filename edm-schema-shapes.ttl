@@ -728,7 +728,7 @@ edm:outputMapping a rdf:Property ;
 # OUTPUT MAPPING 
 ####
 edm:OutputMapping a owl:Class ;
-    owl:equivalentClass hydra:IriTemplateMapping ;
+    owl:equivalentClass hydra:SupportedProperty ;
 .
 
 
