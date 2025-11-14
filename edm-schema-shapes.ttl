@@ -627,7 +627,7 @@ edm:description a rdf:Property ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:Facility ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:identifier ;
+    owl:equivalentProperty dct:identifier ;
 .
 edm:isPartOf a rdf:Property ;
     rdfs:domain edm:Facility ;
