@@ -849,8 +849,8 @@ edm:readOnlyValue a rdf:Property ;
 # ORGANIZATION 
 ####
 edm:Organization a owl:Class;
-  owl:equivalentClass foaf:Organization ;
-  # owl:equivalentClass schema:Organization ;
+  # owl:equivalentClass foaf:Organization ;
+  owl:equivalentClass schema:Organization ;
 .
 
 edm:address a rdf:Property ;
@@ -1171,8 +1171,8 @@ edm:WebService a owl:Class ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:Identifier ;
-    owl:equivalentProperty dct:identifier ;
-    # owl:equivalentProperty schema:identifier ;
+    # owl:equivalentProperty dct:identifier ;
+    owl:equivalentProperty schema:identifier ;
 .
 
 edm:category a rdf:Property ;
