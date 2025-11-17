@@ -872,7 +872,7 @@ edm:email a rdf:Property ;
 .
 edm:identifier a rdf:Property ;
     rdfs:domain edm:Organization ;
-    rdfs:range  edm:Identifier ;
+    rdfs:range  edm:PropertyValue ;
     owl:equivalentProperty schema:identifier ;
 .
 edm:legalName a rdf:Property ;
@@ -1272,3 +1272,21 @@ edm:webserviceRelation a rdf:Property ;
     owl:equivalentProperty dct:relation ;
 .
 
+
+
+edm:PropertyValue a owl:Class ;
+  owl:equivalentClass schema:PropertyValue ;
+  # owl:equivalentClass schema:PropertyValue ;
+.
+edm:type a rdf:Property ;
+    rdfs:domain edm:PropertyValue ;
+    rdfs:range  xsd:string ;
+    # owl:equivalentProperty adms:schemeAgency;
+    owl:equivalentProperty schema:propertyID ;
+.
+edm:identifier a rdf:Property ;
+    rdfs:domain edm:PropertyValue ;
+    rdfs:range  xsd:string ;
+    # owl:equivalentProperty skos:notation ;
+    owl:equivalentProperty schema:value ;
+.
