@@ -1279,19 +1279,19 @@ edm:webserviceRelation a rdf:Property ;
 
 
 
-edm:PropertyValue a owl:Class ;
-  owl:equivalentClass schema:PropertyValue ;
-  # owl:equivalentClass schema:PropertyValue ;
-.
-edm:type a rdf:Property ;
-    rdfs:domain edm:PropertyValue ;
-    rdfs:range  xsd:string ;
-    # owl:equivalentProperty adms:schemeAgency;
-    owl:equivalentProperty schema:propertyID ;
-.
-edm:identifier a rdf:Property ;
-    rdfs:domain edm:PropertyValue ;
-    rdfs:range  xsd:string ;
-    # owl:equivalentProperty skos:notation ;
-    owl:equivalentProperty schema:value ;
-.
+# edm:PropertyValue a owl:Class ;
+#   owl:equivalentClass schema:PropertyValue ;
+#   # owl:equivalentClass schema:PropertyValue ;
+# .
+# edm:type a rdf:Property ;
+#     rdfs:domain edm:PropertyValue ;
+#     rdfs:range  xsd:string ;
+#     # owl:equivalentProperty adms:schemeAgency;
+#     owl:equivalentProperty schema:propertyID ;
+# .
+# edm:identifier a rdf:Property ;
+#     rdfs:domain edm:PropertyValue ;
+#     rdfs:range  xsd:string ;
+#     # owl:equivalentProperty skos:notation ;
+#     owl:equivalentProperty schema:value ;
+# .
