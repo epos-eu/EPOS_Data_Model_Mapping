@@ -353,8 +353,8 @@ edm:hasPart a rdf:Property ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Identifier ;
-    owl:equivalentProperty adms:identifier ;
-    # owl:equivalentProperty dct:identifier ;
+    # owl:equivalentProperty adms:identifier ;
+    owl:equivalentProperty dct:identifier ;
 .
 edm:isPartOf a rdf:Property ;
     rdfs:domain edm:DataProduct ;
@@ -448,7 +448,7 @@ edm:description a rdf:Property ;
 edm:downloadURL a rdf:Property ;
     rdfs:domain edm:Distribution ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty dcat:downloadURL ;
+    owl:equivalentProperty dcat:accessURL ;
 .
 edm:format a rdf:Property ;
     rdfs:domain edm:Distribution ;
@@ -479,6 +479,11 @@ edm:type a rdf:Property ;
     rdfs:domain edm:Distribution ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty dct:type ;
+.
+edm:identifier a rdf:Property ;
+    rdfs:domain edm:Distribution ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty dct:identifier ;
 .
 edm:dataPolicy a rdf:Property ;
     rdfs:domain edm:Distribution ;
@@ -878,7 +883,7 @@ edm:identifier a rdf:Property ;
 edm:legalName a rdf:Property ;
     rdfs:domain edm:Organization ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:legalName ;
+    owl:equivalentProperty foaf:name ;
 .
 edm:leiCode a rdf:Property ;
     rdfs:domain edm:Organization ;
