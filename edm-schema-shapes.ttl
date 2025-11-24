@@ -353,8 +353,8 @@ edm:hasPart a rdf:Property ;
 edm:identifier a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Identifier ;
-    # owl:equivalentProperty adms:identifier ;
-    owl:equivalentProperty dct:identifier ;
+    owl:equivalentProperty adms:identifier ;
+    # owl:equivalentProperty dct:identifier ;
 .
 edm:isPartOf a rdf:Property ;
     rdfs:domain edm:DataProduct ;
