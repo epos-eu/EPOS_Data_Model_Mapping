@@ -1050,7 +1050,7 @@ edm:requirements a rdf:Property ;
 edm:softwareVersion a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:softwareVersion ;
+    owl:equivalentProperty schema:version ;
 .
 
 ####
@@ -1156,7 +1156,7 @@ edm:runtimePlatform a rdf:Property ;
 edm:softwareVersion a rdf:Property ;
     rdfs:domain edm:SoftwareSourceCode ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:softwareVersion ;
+    owl:equivalentProperty schema:version ;
 .
 
 
