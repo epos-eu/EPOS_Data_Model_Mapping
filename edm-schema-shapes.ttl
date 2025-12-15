@@ -1052,6 +1052,11 @@ edm:softwareVersion a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:version ;
 .
+edm:operatingSystem a rdf:Property ;
+    rdfs:domain edm:SoftwareApplication ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:operatingSystem ;
+.
 
 ####
 # PARAMETER
