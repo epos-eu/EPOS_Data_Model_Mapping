@@ -1057,6 +1057,11 @@ edm:operatingSystem a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:operatingSystem ;
 .
+edm:creator a rdf:Property ;
+    rdfs:domain edm:SoftwareApplication ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:creator ;
+.
 
 ####
 # PARAMETER
@@ -1167,6 +1172,12 @@ edm:softwareRequirements a rdf:Property ;
     rdfs:domain edm:SoftwareSourceCode ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:softwareRequirements ;
+.
+
+edm:creator a rdf:Property ;
+    rdfs:domain edm:SoftwareSourceCode ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty schema:creator ;
 .
 
 
