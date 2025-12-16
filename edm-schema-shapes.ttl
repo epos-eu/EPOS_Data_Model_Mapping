@@ -897,7 +897,7 @@ edm:memberOf a rdf:Property ;
 .
 edm:owns a rdf:Property ;
     rdfs:domain edm:Organization ;
-    rdfs:range  xsd:string ;
+    rdfs:range  edm:LinkedEntity ;
     owl:equivalentProperty schema:owns ;
 .
 edm:telephone a rdf:Property ;
