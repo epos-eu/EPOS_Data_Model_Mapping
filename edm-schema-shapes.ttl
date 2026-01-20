@@ -435,7 +435,7 @@ edm:variableMeasured a rdf:Property ;
 edm:qualifiedAttribution a rdf:Property ;
     rdfs:domain edm:DataProduct ;
     rdfs:range  edm:Attribution ;
-    owl:equivalentProperty prov:qualifiedAttribution ; #dqv:hasQualityAnnotation ;
+    owl:equivalentProperty prov:qualifiedAttribution; #dqv:hasQualityAnnotation ;
 .
 
 ####
