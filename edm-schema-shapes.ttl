@@ -497,6 +497,12 @@ edm:supportedOperation a rdf:Property ;
     owl:equivalentProperty dcat:accessURL ;
 .
 
+edm:byteSize a rdf:Property ;
+    rdfs:domain edm:Distribution ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty dcat:byteSize ;
+.
+
 ####
 # EQUIPMENT 
 ####
@@ -1050,7 +1056,7 @@ edm:requirements a rdf:Property ;
 edm:softwareVersion a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
     rdfs:range  xsd:string ;
-    owl:equivalentProperty schema:version ;
+    owl:equivalentProperty schema:softwareVersion ;
 .
 edm:operatingSystem a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
@@ -1291,5 +1297,24 @@ edm:webserviceRelation a rdf:Property ;
     rdfs:domain edm:WebService ;
     rdfs:range  edm:WebService ;
     owl:equivalentProperty dct:relation ;
+.
+
+####
+# ATTRIBUTION 
+####
+edm:Attribution a owl:Class;
+  owl:equivalentClass prov:Attribution ;
+.
+
+edm:role a rdf:Property ;
+    rdfs:domain edm:Attribution ;
+    rdfs:range  xsd:string ;
+    owl:equivalentProperty dcat:hadRole ;
+.
+
+edm:agent a rdf:Property ;
+    rdfs:domain edm:Attribution ;
+    rdfs:range  edm:Organization ;
+    owl:equivalentProperty prov:agent ;
 .
 
