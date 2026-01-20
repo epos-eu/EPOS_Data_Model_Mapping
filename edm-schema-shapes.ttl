@@ -432,6 +432,11 @@ edm:variableMeasured a rdf:Property ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty schema:variableMeasured ; #dqv:hasQualityAnnotation ;
 .
+edm:qualifiedAttribution a rdf:Property ;
+    rdfs:domain edm:DataProduct ;
+    rdfs:range  edm:Attribution ;
+    owl:equivalentProperty prov:qualifiedAttribution ; #dqv:hasQualityAnnotation ;
+.
 
 ####
 # DISTRIBUTION 
