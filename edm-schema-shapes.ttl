@@ -241,12 +241,14 @@ edm:logo a rdf:Property ;
     rdfs:domain edm:CategoryScheme ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty foafterm:logo ;
+    owl:equivalentProperty foaf:logo ;
 .
 
 edm:homepage a rdf:Property ;
     rdfs:domain edm:CategoryScheme ;
     rdfs:range  xsd:string ;
     owl:equivalentProperty foafterm:homepage ;
+    owl:equivalentProperty foaf:homepage ;
 .
 
 edm:color a rdf:Property ;
