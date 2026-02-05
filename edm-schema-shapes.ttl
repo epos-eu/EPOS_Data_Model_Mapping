@@ -1072,7 +1072,7 @@ edm:operatingSystem a rdf:Property ;
 .
 edm:creator a rdf:Property ;
     rdfs:domain edm:SoftwareApplication ;
-    rdfs:range  xsd:string ;
+    rdfs:range  edm:Organization ;
     owl:equivalentProperty schema:creator ;
 .
 
